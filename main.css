@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#title div{
+    padding: 4px;
+}
+
+.title__name {
+    color: #555555;
+    margin: 2px;
+}
+
+.title__badge {
+    color: #ffffff;
+    background-color: #555555;
+    border-radius: 3px;
+    height: 16px;
+    
+}
+
+.table{
+    list-style: none;
+    font-size: 12px;
+    width: 300px;
+}
+
+.table li:first-child{
+    font-weight: bold;
+}
+
+li span:first-child{
+    font-weight: bold;
+}
+
+[class *="flex-container"] {
+    display: flex;
+    border: black 1px solid;
+}
+
+.flex-container-pcs {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-container-pcs img {
+    height: 200px;;
+    border: black 1px solid;
+    padding: 2px;
+    margin: 2px;
+}
+
+.jumbotron {
+    font-weight: 100;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+.jumbotron p:first-child{
+    font-size: 32px;
+}

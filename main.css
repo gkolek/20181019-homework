@@ -6,6 +6,10 @@ body {
     display: flex;
     font-size: 14px;
     font-weight: bold;
+    line-height: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 300px;
 }
 
 #title div{
@@ -21,7 +25,6 @@ body {
     color: #ffffff;
     background-color: #555555;
     border-radius: 3px;
-    height: 16px;
     
 }
 
@@ -29,24 +32,32 @@ body {
     list-style: none;
     font-size: 12px;
     width: 300px;
+    background-color: azure;
 }
 
 .table li:first-child{
     font-weight: bold;
 }
+li span{
+    padding: 2px;
+    border: black 1px solid;
+}
 
 li span:first-child{
     font-weight: bold;
 }
+.flex-container-row{
+    background-color: aliceblue;
+}
 
 [class *="flex-container"] {
     display: flex;
-    border: black 1px solid;
 }
 
 .flex-container-pcs {
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: azure;
 }
 
 .flex-container-pcs img {
@@ -54,15 +65,13 @@ li span:first-child{
     border: black 1px solid;
     padding: 2px;
     margin: 2px;
-@media only screen and (max-width:300px) {       
-    overflow:hidden;
-    }
-}
+    background-color: aliceblue;
 
+}
 .jumbotron {
-    font-weight: 100;
     background-color: lightgrey;
     font-size: 12px;
+    margin-top: 20px;
 }
 
 .jumbotron p:first-child{

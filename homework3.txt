@@ -1,0 +1,4 @@
+Na górze znajduje się "header" a obok niego "badge" z nazwą kursu. Poniżej "table" z alfabetyczną listą uczestników. Następnie dwa obrazki znajdujące się w kontenerze o wysokości 200px (i parametrze overflow: hidden; - doczytajcie o nim :), na desktopie mają być koło siebie, a na mobile pod sobą. Dodatkowo jak widzicie obrazki są wycentrowane w pionie. Kolejny jest "jumbotron" z przykładowym lorem ipsum. A na koniec podpis (dociągnięty do prawej strony a imię i nazwisko pod sobą).
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui metus, commodo vitae sem vel, tempus pellentesque nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam consequat, nisi ac cursus mattis, mi eros lacinia tortor, nec pellentesque ligula quam mattis nulla.

@@ -14,18 +14,18 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
     max-width: inherit;
-    background-color:pink;
+    /* background-color:pink; */
 }
 
-.table{
+/* .table{
     background-color: aquamarine;
 }
-
+ */
+ 
 .wraper{     
     height: 200px;
     overflow: hidden;
     position: relative;
-    margin: 0px;
     margin-bottom: 16px;
 }
 
@@ -34,12 +34,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
+    /* width: 100%; */
     transform: translate(-50%,-50%);
 }
-
-
-
 
 
 
@@ -47,4 +44,3 @@ body {
 @media screen and (max-width: 768px){
 
 }
-

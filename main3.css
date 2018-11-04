@@ -1,29 +1,97 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgoldenrodyellow;
 }
 
-.wrapper{
-    /* width: 100%; */
-    max-width: 600px;
+.main-container{
+    max-width: 500px;
     margin: 0 auto;
-    width: 600px;
-    flex-wrap: nowrap;
-    
-}
-.wrapper div{
-      background-color: aliceblue
-  
+    width: 1200px;
+    flex-wrap: nowrap;  
 }
 
-#list-title {
+.page-title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: inherit;
+    background-color:pink;
+}
+
+.table{
+    background-color: aquamarine;
+}
+
+.wraper{     
+    height: 200px;
+    /* overflow: hidden; */
+    position: relative;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.img1{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .jumbotron{
+    flex-wrap: nowrap;
+}
+
+/* .ooo{
+    flex-wrap: nowrap;
+}
+
+[class *="flex-container"] {
+    display: flex;
+}
+
+.flex-container-pics {
+    height: 200px;
+    border: 1px black solid;
+}
+
+.flex-container-pics img {
+    height: 100%;
+    width: 50%;
+    border: 1px black solid;
+    margin: 2px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #list-title {
     display: flex;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 40px;
-    /* font-size: 14px; */
-    /* line-height: 14px; */
-    width: 600px;
+       width: 600px;
     flex-wrap: nowrap;
 }
 
@@ -34,10 +102,7 @@ body {
 .list-table{
     width: 600px;
     flex-wrap: nowrap;
-
 }
-
-
 
 #title {
     display: flex;
@@ -46,7 +111,6 @@ body {
     line-height: 14px;
     margin-top: 10px;
     margin-bottom: 20px;
-    /* width: 1200px; */
 }
 
 #title div{
@@ -61,7 +125,6 @@ body {
     color: #ffffff;
     background-color: #555555;
     border-radius: 5px;
-    
 }
 
 .list-table{
@@ -95,13 +158,11 @@ li span{
 
 li span:first-child{
     font-weight: bold;
-}
-.flex-container-row{
-    background-color: aliceblue;
+    
 }
 
-[class *="flex-container"] {
-    display: flex;
+.flex-container-row{
+    background-color: aliceblue;
 }
 
 .flex-container-pcs {
@@ -115,9 +176,10 @@ li span:first-child{
     border: black 1px solid;
     margin: 2px;
     background-color: aliceblue;
+} */
 
-}
-.jumbotron {
+
+/* .jumbotron {
     background-color: lightgrey;
     font-size: 12px;
     margin-top: 20px;
@@ -126,9 +188,9 @@ li span:first-child{
 .jumbotron p:first-child{
     font-size: 32px;
 }
-
-@media screen and (max-width: 768px;){
+ */
+/* @media screen and (max-width: 768px;){
     .jumbotron{
     }
-}
+} */
 

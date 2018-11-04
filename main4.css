@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 1200px;
+    flex-wrap: nowrap;  
+}
+
+.page-title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: inherit;
+    background-color:pink;
+}
+
+.table{
+    background-color: aquamarine;
+}
+
+.wraper{     
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.img{  
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+}
+
